@@ -49327,5 +49327,40 @@
         "pub_date": "2025-06-25",
         "summary": "Conversational Recommender Systems (CRSs) have garnered attention as a novel approach to delivering personalized recommendations through multi-turn dialogues. This review developed a taxonomy framework to systematically categorize relevant publications into four groups: dataset construction, algorithm design, system evaluation, and empirical studies, providing a comprehensive analysis of simulation methods in CRSs research. Our analysis reveals that simulation methods play a key role in tackling CRSs' main challenges. For example, LLM-based simulation methods have been used to create conversational recommendation data, enhance CRSs algorithms, and evaluate CRSs. Despite several challenges, such as dataset bias, the limited output flexibility of LLM-based simulations, and the gap between text semantic space and behavioral semantics, persist due to the complexity in Human-Computer Interaction (HCI) of CRSs, simulation methods hold significant potential for advancing CRS research. This review offers a thorough summary of the current research landscape in this domain and identifies promising directions for future inquiry.",
         "translated": ""
+    },
+    {
+        "title": "Maximal Matching Matters: Preventing Representation Collapse for Robust\n  Cross-Modal Retrieval",
+        "url": "http://arxiv.org/abs/2506.21538v1",
+        "pub_date": "2025-06-26",
+        "summary": "Cross-modal image-text retrieval is challenging because of the diverse possible associations between content from different modalities. Traditional methods learn a single-vector embedding to represent semantics of each sample, but struggle to capture nuanced and diverse relationships that can exist across modalities. Set-based approaches, which represent each sample with multiple embeddings, offer a promising alternative, as they can capture richer and more diverse relationships. In this paper, we show that, despite their promise, these set-based representations continue to face issues including sparse supervision and set collapse, which limits their effectiveness. To address these challenges, we propose Maximal Pair Assignment Similarity to optimize one-to-one matching between embedding sets which preserve semantic diversity within the set. We also introduce two loss functions to further enhance the representations: Global Discriminative Loss to enhance distinction among embeddings, and Intra-Set Divergence Loss to prevent collapse within each set. Our method achieves state-of-the-art performance on MS-COCO and Flickr30k without relying on external data.",
+        "translated": ""
+    },
+    {
+        "title": "skLEP: A Slovak General Language Understanding Benchmark",
+        "url": "http://arxiv.org/abs/2506.21508v1",
+        "pub_date": "2025-06-26",
+        "summary": "In this work, we introduce skLEP, the first comprehensive benchmark specifically designed for evaluating Slovak natural language understanding (NLU) models. We have compiled skLEP to encompass nine diverse tasks that span token-level, sentence-pair, and document-level challenges, thereby offering a thorough assessment of model capabilities. To create this benchmark, we curated new, original datasets tailored for Slovak and meticulously translated established English NLU resources. Within this paper, we also present the first systematic and extensive evaluation of a wide array of Slovak-specific, multilingual, and English pre-trained language models using the skLEP tasks. Finally, we also release the complete benchmark data, an open-source toolkit facilitating both fine-tuning and evaluation of models, and a public leaderboard at https://github.com/slovak-nlp/sklep in the hopes of fostering reproducibility and drive future research in Slovak NLU.",
+        "translated": ""
+    },
+    {
+        "title": "Text2Cypher Across Languages: Evaluating Foundational Models Beyond\n  English",
+        "url": "http://arxiv.org/abs/2506.21445v1",
+        "pub_date": "2025-06-26",
+        "summary": "Recent advances in large language models have enabled natural language interfaces that translate user questions into database queries, such as Text2SQL, Text2SPARQL, and Text2Cypher. While these interfaces enhance database accessibility, most research today focuses solely on English, with limited evaluation in other languages. This paper investigates the performance of foundational LLMs on the Text2Cypher task across multiple languages. We create and release a multilingual test set by translating English questions into Spanish and Turkish while preserving the original Cypher queries, enabling fair cross-lingual comparison. We evaluate multiple foundational models using standardized prompts and metrics. Our results show a consistent performance pattern: highest on English, then Spanish, and lowest on Turkish. We attribute this to differences in training data availability and linguistic characteristics. Additionally, we explore the impact of translating task prompts into Spanish and Turkish. Results show little to no change in evaluation metrics, suggesting prompt translation has minor impact. Our findings highlight the need for more inclusive evaluation and development in multilingual query generation. Future work includes schema localization and fine-tuning across diverse languages.",
+        "translated": ""
+    },
+    {
+        "title": "Leveraging LLM-Assisted Query Understanding for Live Retrieval-Augmented\n  Generation",
+        "url": "http://arxiv.org/abs/2506.21384v1",
+        "pub_date": "2025-06-26",
+        "summary": "Real-world live retrieval-augmented generation (RAG) systems face significant challenges when processing user queries that are often noisy, ambiguous, and contain multiple intents. While RAG enhances large language models (LLMs) with external knowledge, current systems typically struggle with such complex inputs, as they are often trained or evaluated on cleaner data. This paper introduces Omni-RAG, a novel framework designed to improve the robustness and effectiveness of RAG systems in live, open-domain settings. Omni-RAG employs LLM-assisted query understanding to preprocess user inputs through three key modules: (1) Deep Query Understanding and Decomposition, which utilizes LLMs with tailored prompts to denoise queries (e.g., correcting spelling errors) and decompose multi-intent queries into structured sub-queries; (2) Intent-Aware Knowledge Retrieval, which performs retrieval for each sub-query from a corpus (i.e., FineWeb using OpenSearch) and aggregates the results; and (3) Reranking and Generation, where a reranker (i.e., BGE) refines document selection before a final response is generated by an LLM (i.e., Falcon-10B) using a chain-of-thought prompt. Omni-RAG aims to bridge the gap between current RAG capabilities and the demands of real-world applications, such as those highlighted by the SIGIR 2025 LiveRAG Challenge, by robustly handling complex and noisy queries.",
+        "translated": ""
+    },
+    {
+        "title": "Real-time and personalized product recommendations for large e-commerce\n  platforms",
+        "url": "http://arxiv.org/abs/2506.21368v1",
+        "pub_date": "2025-06-26",
+        "summary": "We present a methodology to provide real-time and personalized product recommendations for large e-commerce platforms, specifically focusing on fashion retail. Our approach aims to achieve accurate and scalable recommendations with minimal response times, ensuring user satisfaction, leveraging Graph Neural Networks and parsimonious learning methodologies. Extensive experimentation with datasets from one of the largest e-commerce platforms demonstrates the effectiveness of our approach in forecasting purchase sequences and handling multi-interaction scenarios, achieving efficient personalized recommendations under real-world constraints.",
+        "translated": ""
     }
 ]
